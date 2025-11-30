@@ -17,6 +17,10 @@
           path = ./templates/java;
           description = "A simple flake for java development";
         };
+        php = {
+          path = ./templates/php;
+          description = "A simple flake for php development";
+        };
       };
 
       defaultTemplate = self.templates.plethora;
